@@ -1,5 +1,5 @@
 local name = "dummy"
-if vim.v.neo_tree_dummy_extension_no_name then
+if vim.g.neo_tree_dummy_extension_no_name then
     name = nil
 end
 
