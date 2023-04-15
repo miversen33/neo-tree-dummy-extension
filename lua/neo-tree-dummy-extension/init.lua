@@ -1,5 +1,10 @@
+local name = "dummy"
+if vim.v.neo_tree_dummy_extension_no_name then
+    name = nil
+end
+
 local M = {
-    name = "dummy", -- We can also remove this
+    name = name,
     components = {},
     commands = {},
     navigate = function() end,
